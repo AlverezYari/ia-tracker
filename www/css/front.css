@@ -1,0 +1,187 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #ff0084;
+}
+
+a:hover {
+  color: #00a896;
+}
+
+/****************/
+/**** BUTTONS ****/
+/****************/
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff0084;
+    border-color: #ff0084;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00a896;
+    border-color: #00a896;
+}
+
+/****************/
+/**** BANNER ****/
+/****************/
+
+header.banner {
+  position: relative;
+  background-color: #343a40;
+  background: linear-gradient(217deg, rgba(255,0,0,1), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,1), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,1), rgba(0,0,255,0) 70.71%);
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.banner .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.banner h1 {
+  font-size: 2rem;
+}
+
+/*********************/
+/*** MOBILE BANNER ***/
+/*********************/
+
+@media (min-width: 768px) {
+
+  header.banner {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  header.banner h1 {
+    font-size: 3rem;
+  }
+}
+
+/*****************/
+/**** CONTENT ****/
+/*****************/
+
+.home-content .home-content-text {
+  padding: 2rem;
+}
+
+.home-content .home-content-text-full {
+  padding: 2rem;
+  }
+
+.home-content .home-content-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+section.home-content {
+  padding-top: 2em;
+}
+
+/************************/
+/**** MOBILE CONTENT ****/
+/************************/
+
+@media (min-width: 768px) {
+
+  .home-content .home-content-text {
+    padding: 2rem;
+  }
+
+  .home-content .home-content-text-full {
+    padding: 7rem;
+  }
+
+}
+
+/****************/
+/****** FA ******/
+/****************/
+
+.fa-icons {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fa-icons .fa-icons-item {
+  max-width: 20rem;
+}
+
+.fa-icons .fa-icons-item .fa-icons-icon {
+  height: 7rem;
+}
+
+.fa-icons .fa-icons-item .fa-icons-icon i {
+  font-size: 4.5rem;
+  color: #551A8B!important;
+}
+
+.fa-icons .fa-icons-item:hover .fa-icons-icon i {
+  font-size: 5rem;
+}
+
+/**********************/
+/*** CALL TO ACTION ***/
+/**********************/
+
+.cta {
+  position: relative;
+  background-color: #343a40;
+  background: linear-gradient(217deg, rgba(255,0,0,1), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(0,255,0,1), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(0,0,255,1), rgba(0,0,255,0) 70.71%);
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.cta .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+/***************/
+/**** FOOT *****/
+/***************/
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fab {
+  color: #ff0084;
+}
+
+.fab:hover {
+  color: #00a896;
+}
