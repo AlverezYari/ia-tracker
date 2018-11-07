@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template import loader
 
 
 def index(request):
-    return HttpResponse("Hi, this is the IA Tracker!")
+    template = loader.get_template('coretrack/index.html')
+    return HttpResponse(template.render())
 
 def coretr(request):
     return HttpResponse("Post-Login for Campaign")
